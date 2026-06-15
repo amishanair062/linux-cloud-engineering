@@ -1,2 +1,2 @@
-#Linux for Cloud Engineering Lof
+# Linux for Cloud Engineering Log
 Started stage 1: Linux Basics.
