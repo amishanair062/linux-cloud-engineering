@@ -1,0 +1,35 @@
+   18  git clone git@github.com:amishanair062/linux-cloud-engineering.git
+   19  cd linux-cloud-engineering
+   20  clear
+   21  echo "#Linux for Cloud Engineering Lof" > commands_log.md 
+   22  echo "Started stage 1: Linux Basics." >> commands.log.md
+   23  git status
+   24  git add commands_log.md
+   25  echo "Started stage 1: Linux Basics." >> commands_log.md
+   26  git add commands_log.md
+   27  git status
+   28  git commit -m "docs: initial commit of linux learning log"
+   29  git push origin main
+   30  cd linux-cloud-engineering
+   31  touch chapter2-theFilesyterm.md
+   32  ls -la
+   33  mkdir Chapter2:The Filesystem
+   34  mv chapter2-thesysterm.md Chapter2:The Filesystem/
+   35  mv chapter2-theFilesysterm.md Chapter2:The Filesystem/
+   36  ls -la
+   37  rmdir Filesystem
+   38  ls /Filesystem/
+   39  rm -rf Filesystem
+   40  ls -la
+   41  mkdir Chapter2:The_Filesystem
+   42  ls -la
+   43  mv chapter2-theFilesysterm.md Chapter2:The_Filesystem/
+   44  mv chapter2-theFilesysterm.md Chapter2:The_Filesyste/m
+   45  mv chapter2-theFilesysterm.md Chapter2:The_Filesystem/
+   46  rm chapter2-theFilesysterm.md
+   47  rm chapter2-theFilesyterm.md
+   48  ls -ls
+   49  ls
+   50  touch Chapter2:The_Filesystem/NotesofFS.md
+   51  ls -la Chapter2:The_Filesystem/
+   52  history | tail -n 35 > Chapter2:The_Filesystem/My-Debugging-mess.txt
