@@ -33,3 +33,37 @@
    50  touch Chapter2:The_Filesystem/NotesofFS.md
    51  ls -la Chapter2:The_Filesystem/
    52  history | tail -n 35 > Chapter2:The_Filesystem/My-Debugging-mess.txt
+67  cd linux-cloud-engineering
+   68  ls -la
+   69  cd ..
+   70  cd linux-cloud-engineering
+   71  cd Chapter2\:The_Filesystem/
+   72  ls
+   73  cat NotesofFS.md 
+   74  tail -n 10 NotesofFS.md 
+   75  head -n 5 NotesofFS.md 
+   76  cd linux-cloud-engineering
+   77  ls
+   78  ls -la
+   79  cd Chapter2\:The_Filesystem/
+   80  ls
+   81  grep "logbook" NotesofFS.md 
+   82  cd ~
+   83  cd linux-cloud-engineering mkdir Chapter3:Permissions ; touch Chapter3:Permissions/NotesofPermissions.md
+   84  cd linux-cloud-engineering
+   85  ls -la
+   86  mkdir Chapter3:Permissions
+   87  ls
+   88  cd Chapter3\:Permissions/
+   89  touch NotesofPermission.md
+   90  touch CommandsofPermission.txt
+   91  ls
+   92  git add Chapter3:Permissions
+   93  cd ..
+   94  git add Chapter3:Permissions
+   95  git commit -m "docs: linux new chapter 3: permissions"
+   96  git pull main origin
+   97  git pull origin main
+   98  git config --global pull.rebase false
+   99  git pull origin main
+  100  git push origin main
